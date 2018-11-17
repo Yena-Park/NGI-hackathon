@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 
 import rbcLogo from '../../images/rbcLogo.png';
+import logo from '../../images/Tree.png'
 import MyPage from '../../pages/MyPage'
 
 const MyLink = props => <Link to='/MyPage' {...props} />
@@ -30,6 +31,7 @@ const Header = (props) => {
       <AppBar>
         <Toolbar className={classes.toolBar}>
         <img alt="logo" src={rbcLogo} width="40px" height="50px"/>
+        <img alt="logo" src={logo} width="120px" height="55px" />
           <Grid container spacing={16} direction="row" justify="flex-end" alignItems="center">
             <Grid item>
               <Button component={MyLink}>My Page</Button>
