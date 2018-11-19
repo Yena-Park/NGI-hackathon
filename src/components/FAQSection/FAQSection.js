@@ -45,58 +45,29 @@ const FAQSection = ({ classes }) => {
               Who is RBC?
             </Typography>
             <Typography component="p">
-            rbc
+            Royal Bank of Canada (RY on TSX and NYSE) and its subsidiaries operate under the master brand name RBC.
+            With over 81,000 full-time and part-time employees who serve 16 million clients in Canada, the U.S. and 34 other countries, we are one of Canada's biggest banks, and one of the largest in the world based on market capitalization and provide personal and commercial banking, wealth management, insurance, investor services and capital markets products and services on a global basis.
             </Typography>
           </Paper>
         </Grid>
         <Grid item xs={10}>
           <Paper className={classes.paper}>
             <Typography variant="h5" component="h3">
-              Why RBC?
+            Where is RBC located?
             </Typography>
             <Typography component="p">
-              rbc
+            We have our main headquarter at Montreal, Quebec. Our other locations include: China, Hong Kong, Singapore, Channel Islands, Guernsey, Jersey, Edinburgh, London, Bahamas, Vancouver, San Francisco, Seattle, and Wilmington.
             </Typography>
           </Paper>
         </Grid>
         <Grid item xs={10}>
           <Paper className={classes.paper}>
             <Typography variant="h5" component="h3">
-              How does RBC work?
+            Why RBC?
             </Typography>
             <Typography component="p">
-              rbc
-            </Typography>
-          </Paper>
-        </Grid>
-        <Grid item xs={10}>
-          <Paper className={classes.paper}>
-            <Typography variant="h5" component="h3">
-              RBC?
-            </Typography>
-            <Typography component="p">
-              RBC?
-              <ol class>
-                <li>Send .</li>
-                <li>Embed </li>
-                <li>Travellers .</li>
-              </ol>
-            </Typography>
-          </Paper>
-        </Grid>
-        <Grid item xs={10}>
-          <Paper className={classes.paper}>
-            <Typography variant="h5" component="h3">
-              How do I make trips on RBC?
-            </Typography>
-            <Typography component="p">
-              rbc
-              <ol>
-                <li>rbc</li>
-                <li>
-                  rbc
-                </li>
-              </ol>
+            View your account details and transaction history for the last seven years. You can also set up and receive RBC Alerts about your banking activity and available RBC Offers.
+It’s a breeze to move money to your savings account, pay down your credit card, loan or credit line, or make a payment on your mortgage2. You can also transfer money between your RBC Royal Bank Canadian and RBC Bank (U.S.) accounts, instantly and for free.
             </Typography>
           </Paper>
         </Grid>

@@ -14,8 +14,8 @@ import img4 from "../images/4tree.png";
 
 const Wrapper = styled.div`
   margin-top: 100px;
-  margin-left: 20px;
-`;
+  margin-left: 525px;
+`
 
 class MyPage extends Component {
   constructor(props) {
@@ -56,12 +56,12 @@ class MyPage extends Component {
       <div>
         <Header />
         <Wrapper>
-          <div>Goal : ${goalMoney}</div>
-          <div>Current : ${current}</div>
-          <div>
-            <input value={input} onChange={handleChange} />
-            <button onClick={handleClick}> Save </button>
-          </div>
+            <div>Goal : ${goalMoney}</div>
+            <div>Current : ${current}</div>
+            <div>
+              <input value={input} onChange={handleChange} />
+              <button onClick={handleClick}> Save </button>
+            </div>
           <div>
             <img src={imageURL} alt={imageURL} />
           </div>

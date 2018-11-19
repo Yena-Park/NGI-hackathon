@@ -86,8 +86,7 @@ const Image4 = styled.div`
 `
 
 const Text = styled.div`
-  background-color: #4CAF50;
-  color: white;
+  color: black;
   font-size: 16px;
 `
 
@@ -103,10 +102,12 @@ const Gallery = (props) => {
           justify="center"
           alignItems="flex-start"
         >
-          <Typography className={classes.textAnimation}>Young</Typography>
+          <Typography className={classes.textAnimation}>Income Generation</Typography>
         </Grid>
         <Div>
-          <Text>John Doe</Text>
+          <Text>
+          Income generation is an investment or business activity creating money.
+          </Text>
         </Div>
       </Image1>
       <Image2 className={classes.image}>
@@ -117,8 +118,13 @@ const Gallery = (props) => {
             justify="center"
             alignItems="flex-start"
           >
-            <Typography className={classes.textAnimation}>Young</Typography>
+            <Typography className={classes.textAnimation}>Saving Strategies</Typography>
           </Grid>
+          <Div>
+            <Text>
+            For the savings strategies picture: Save automatically - monthly automated transfer from checking to savings, ideally after you are paid; “what you don’t see, you probably won’t miss”
+            </Text>
+          </Div>
       </Image2>
       <Image3 className={classes.image}>
         <Grid
@@ -128,8 +134,13 @@ const Gallery = (props) => {
           justify="center"
           alignItems="flex-start"
         >
-          <Typography className={classes.textAnimation}>Young</Typography>
+          <Typography className={classes.textAnimation}>Services</Typography>
         </Grid>
+        <Div>
+            <Text>
+            Commercialization of a skill or expertise to a market willing and able to pay.
+            </Text>
+          </Div>
       </Image3>
       <Image4 className={classes.image}>
         <Grid
@@ -139,8 +150,13 @@ const Gallery = (props) => {
             justify="center"
             alignItems="flex-start"
           >
-            <Typography className={classes.textAnimation}>Young</Typography>
+            <Typography className={classes.textAnimation}>Membership Dues</Typography>
           </Grid>
+          <Div>
+            <Text>
+            Fees collected from members of a group, association, or organization in exchange for services such as a newsletter, discounts, conferences, insurance, etc.
+            </Text>
+          </Div>
       </Image4>
     </div>
   )
